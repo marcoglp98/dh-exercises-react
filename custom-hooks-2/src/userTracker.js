@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export const useTracker = (initialUser = '', initialPassword = '') => {
+export const userTracker = (initialUser = '', initialPassword = '') => {
     const [username, setUsername] = useState(initialUser);
     const [password, setPassword] = useState(initialPassword);
 
