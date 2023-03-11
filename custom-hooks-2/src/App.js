@@ -1,7 +1,7 @@
-import useTracker from './useTracker';
+import userTracker from './userTracker';
 
 export const App = () => {
-  const { username, password, onTrackData } = useTracker('', '')
+  const { username, password, onTrackData } = userTracker('', '')
 
   return (
     <div>
